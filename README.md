@@ -33,7 +33,7 @@ Once those are available, if you use `bash`, you can just run the `setup.sh`
 script.
 
 ```
-./setup.sh
+DB_HOST=localhost ./setup.sh
 ```
 
 If not, you can run the commands below to get the 311 data into your database.

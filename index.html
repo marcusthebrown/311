@@ -430,7 +430,7 @@
       var color = Chart.helpers.color;
       // gets call data for bar chart
       var getCallTotalsChart = async function() {
-        var response = await fetch('http://localhost:3000/api/calls/types/totals');
+        var response = await fetch('/api/calls/types/totals');
         var res = await response.json();
         var data = res.data;
         let callTypes = data.reduce(function(types, data) {

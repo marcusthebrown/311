@@ -2,7 +2,7 @@
 #!/usr/bin/bash
 #!/usr/local/bin/bash
 
-# create the db
+# create the db (for local development)
 createuser nola311
 createdb nola311 -O nola311
 

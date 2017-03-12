@@ -1,2 +1,4 @@
 .DS_Store
 data/nola311_raw.csv
+node_modules
+npm-debug.log
